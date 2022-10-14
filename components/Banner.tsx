@@ -53,7 +53,8 @@ export const Banner = ({ netflixOriginals }: Props) => {
             setShowModal(true);
           }}
         >
-          More Info <InformationCircleIcon className="h-5 w-8 md:h-8 md:w-8 " />
+          <InformationCircleIcon className="h-5 w-8 md:h-8 md:w-8 " />
+          More Info
         </button>
       </div>
     </div>
